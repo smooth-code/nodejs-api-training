@@ -1,8 +1,4 @@
-const fs = require('fs')
-const util = require('util')
-
-const exists = util.promisify(fs.exists)
-const writeFile = util.promisify(fs.writeFile)
+import { safeWrite } from './fs'
 
 class Article {
   constructor({ title, content }) {
@@ -39,13 +35,6 @@ function showArticlesWithMinSign(articles, minSign) {
     .filter(article => article.countSigns() > minSign)
     .map(article => article.resume())
     .join(', ')
-}
-
-async function safeWrite(fileName, content) {
-  if (await exists(fileName)) {
-    throw new Error('File already exists')
-  }
-  return writeFile(fileName, content)
 }
 
 safeWrite('articles.txt', showArticlesWithMinSign(articles, 20))
