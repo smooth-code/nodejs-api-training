@@ -4,9 +4,12 @@
   "private": true,
   "repository": "git@github.com:smooth-code/nodejs-api-training.git",
   "scripts": {
-    "format": "prettier --write \"**/*.mjs\""
+    "format": "prettier --write \"**/*.m?js\"",
+    "build": "babel src -d lib"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "prettier": "^1.12.0"
   }
 }
