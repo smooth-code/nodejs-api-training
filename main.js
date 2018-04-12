@@ -1,3 +1,9 @@
+const fs = require('fs')
+const util = require('util')
+
+const exists = util.promisify(fs.exists)
+const writeFile = util.promisify(fs.writeFile)
+
 class Article {
   constructor({ title, content }) {
     this.title = title
@@ -35,5 +41,13 @@ function showArticlesWithMinSign(articles, minSign) {
     .join(', ')
 }
 
-console.log(showArticlesWithMinSign(articles, 20))
-// My second article (27 words), My third article (21 words)
+async function safeWrite(fileName, content) {
+  if (await exists(fileName)) {
+    throw new Error('File already exists')
+  }
+  return writeFile(fileName, content)
+}
+
+safeWrite('articles.txt', showArticlesWithMinSign(articles, 20))
+  .then(() => console.log('File written'))
+  .catch(console.error)
