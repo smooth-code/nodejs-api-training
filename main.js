@@ -3,4 +3,6 @@ const article = {
   content: 'This is my awesome article',
 }
 
-console.log(article.title + ' (' + article.content.length + ' words)')
+const { title, content } = article
+
+console.log(`${title} (${content.length} words)`)
