@@ -1,9 +1,6 @@
-class Article {
-  constructor({ title, content }) {
-    this.title = title
-    this.content = content
-  }
+import { Model } from 'objection'
 
+class Article extends Model {
   countSigns() {
     return this.content.length
   }
@@ -12,5 +9,7 @@ class Article {
     return `${this.title} (${this.countSigns()} words)`
   }
 }
+
+Article.tableName = 'articles'
 
 export default Article
