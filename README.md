@@ -3,7 +3,7 @@
 ## Ressources
 
 * [Exercices sur GitHub](https://github.com/smooth-code/nodejs-api-training)
-* [Support de cours](https://goo.gl/jm1378)
+* [Support de cours](https://goo.gl/F25exC)
 
 ## Démarrer les exercices
 
