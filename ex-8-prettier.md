@@ -5,7 +5,7 @@ Pour développer plus vite, nous allons installer Prettier dans notre projet.
 ## Instructions
 
 * Installer le plugin Prettier dans votre éditeur
-* Installer `prettier` en dépendance de dév. dans le projet
+* Installer `prettier` en dépendance de dev. dans le projet
 * Créer un fichier `.gitignore` avec "node_modules/"
 * Créer un fichier `.prettierrc` avec la configuration suivante :
 
