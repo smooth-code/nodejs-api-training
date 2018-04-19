@@ -4,7 +4,7 @@ Nous allons installer Nodemon dans notre projet afin de ne plus avoir à nous so
 
 ## Instructions
 
-* Installer `nodemon` en dépendance de dév.
+* Installer `nodemon` en dépendance de dev.
 * Créer un fichier `nodemon.json` à la racine du projet :
 
 ```json
