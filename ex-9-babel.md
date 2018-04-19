@@ -4,7 +4,7 @@ Afin de supporter des versions antérieures de Node.js facilement, nous allons u
 
 ## Instructions
 
-* Installer `babel-cli babel-preset-env` en dépendance de dév.
+* Installer `babel-cli babel-preset-env` en dépendance de dev.
 * Créer un fichier `.babelrc` avec la configuration suivante :
 
 ```json
