@@ -5,14 +5,14 @@ Nous souhaitons modéliser un objet "article" comportant deux propriétés : "ti
 ## Instructions
 
 * Créer un object `article` dans `main.js` avec deux propriétés "title" et "content"
-* Afficher dans la console le titre suivi du nombre de mots de l'article
+* Afficher dans la console le titre suivi du nombre de signes de l'article
 * Lancer la commande `node main.js`
 
 **Résultat attendu**
 
 ```
 $ node main.js
-My first article (26 words)
+My first article (26 letters)
 ```
 
 ## Aide
