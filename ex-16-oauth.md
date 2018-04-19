@@ -21,7 +21,7 @@ Nous souhaitons ajouter une authentification de type OAuth à notre application.
 
 **Résultat attendu**
 
-Il est possible de se connecter avec un utilisateur, un token est alors générée et on peut utiliser l'API.
+Il est possible de se connecter avec un utilisateur, un token est alors généré et on peut utiliser l'API.
 
 ## Aide
 
