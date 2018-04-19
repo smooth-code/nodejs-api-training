@@ -50,6 +50,6 @@ const filteredArray = [1, 2, 3].filter(x => x > 1) // [2, 3]
 // Mapper un tableau
 const mappedArray = filteredArray.map(x => x + 1) // [3, 4]
 
-// Transformer un tableau en chaîne de caractère
+// Transformer un tableau en chaîne de caractères
 console.log(filteredArray.join('-')) // 3-4
 ```
