@@ -4,7 +4,7 @@ Afin de nous aider lors du développement et de détecter les erreurs au plus t�
 
 ## Instructions
 
-* Installer `eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier` en dépendance de dév.
+* Installer `eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier` en dépendance de dev.
 * Créer un fichier `.eslintrc.js` avec la configuration suivante :
 
 ```js
