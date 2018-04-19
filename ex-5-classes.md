@@ -8,7 +8,7 @@ Nous allons créer une classe pour modéliser nos articles sous forme d'instance
 * Ajouter un constructeur pour assigner "title" et "content" sur l'instance (`this`)
 * Ajouter une méthode `countSigns()` qui retournera le nombre de signes de l'article
 * Ajouter une méthode `resume()` qui retourne le résumé de l'article (la même chose que `resumeArticle()`)
-* Remplacer la liste d'article par une liste d'instances :
+* Remplacer la liste d'articles par une liste d'instances :
 
 ```js
 const articles = [
