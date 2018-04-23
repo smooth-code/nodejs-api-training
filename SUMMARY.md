@@ -16,3 +16,4 @@
 * [Exo 14 - Knex](ex-14-knex.md)
 * [Exo 15 - Objection](ex-15-objection.md)
 * [Exo 16 - OAuth](ex-16-oauth.md)
+* [Exo 17 - File Upload](ex-17-upload.md)
