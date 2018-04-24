@@ -18,3 +18,4 @@
 * [Exo 16 - OAuth](ex-16-oauth.md)
 * [Exo 17 - File Upload](ex-17-upload.md)
 * [Exo 18 - Command Line Interface](ex-18-cli.md)
+* [Exo 19 - Tests](ex-19-test.md)
