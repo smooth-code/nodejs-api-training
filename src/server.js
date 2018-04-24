@@ -1,9 +1,8 @@
 import http from 'http'
-import { Model } from 'objection'
 import app from './app'
-import knex from './knex'
+import setupDatabase from './setupDatabase'
 
-Model.knex(knex)
+setupDatabase()
 
 const server = http.createServer(app)
 
